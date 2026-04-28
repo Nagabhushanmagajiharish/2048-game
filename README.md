@@ -32,22 +32,22 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 ### 🎮 Application Running
 
-![2048 Game](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\2048-game-biginning.png)
-![2048 Game](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\2048-game-inbetween.png)
-![2048 Game](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\2048-game-end.png)
+![2048 Game](screenshot\2048-game-biginning.png)
+![2048 Game](screenshot\2048-game-inbetween.png)
+![2048 Game](screenshot\2048-game-end.png)
 
 ### ☸️ Kubernetes Pods
 
-![Kubernetes Pods](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\kubectl-get-pods.png)
+![Kubernetes Pods](screenshot\kubectl-get-pods.png)
 
 ### 🌐 Services / Ingress
 
-![Kubernetes Ingress](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\kubectl-get-ingress.png)
-![Kubernetes Services](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\kubectl-get-svc.png)
+![Kubernetes Ingress](screenshot\kubectl-get-ingress.png)
+![Kubernetes Services](screenshot\kubectl-get-svc.png)
 
 ### ☁️ AWS EKS Cluster
 
-![AWS EKS Cluster](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\AWS-EKS.png)
+![AWS EKS Cluster](screenshot\AWS-EKS.png)
 
 ---
 
@@ -55,7 +55,7 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 User → Load Balancer → Kubernetes Service → Pods → EKS Nodes
 
-![2048 Game deployment architecture on AWS EKS](D:\my-pratices\project\aws-project\my-aws-devops-zero-to-hero\day-22\screenshot\2048-Game-deployment-architecture-on-AWS-EKS.png)
+![2048 Game deployment architecture on AWS EKS](screenshot\2048-Game-deployment-architecture-on-AWS-EKS.png)
 
 ---
 
