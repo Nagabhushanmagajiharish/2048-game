@@ -12,7 +12,6 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 * AWS EKS
 * Kubernetes
-* Docker
 * kubectl
 * AWS Load Balancer Controller
 
@@ -32,22 +31,28 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 ### 🎮 Application Running
 
-![2048 Game](screenshot\2048-game-biginning.png)
-![2048 Game](screenshot\2048-game-inbetween.png)
-![2048 Game](screenshot\2048-game-end.png)
+![Game Start](screenshots/2048-game-beginning.png)
+![Game Mid](screenshots/2048-game-inbetween.png)
+![Game End](screenshots/2048-game-end.png)
+
+---
 
 ### ☸️ Kubernetes Pods
 
-![Kubernetes Pods](screenshot\kubectl-get-pods.png)
+![Kubernetes Pods](screenshots/kubectl-get-pods.png)
+
+---
 
 ### 🌐 Services / Ingress
 
-![Kubernetes Ingress](screenshot\kubectl-get-ingress.png)
-![Kubernetes Services](screenshot\kubectl-get-svc.png)
+![Kubernetes Ingress](screenshots/kubectl-get-ingress.png)
+![Kubernetes Services](screenshots/kubectl-get-svc.png)
+
+---
 
 ### ☁️ AWS EKS Cluster
 
-![AWS EKS Cluster](screenshot\AWS-EKS.png)
+![AWS EKS Cluster](screenshots/AWS-EKS.png)
 
 ---
 
@@ -55,14 +60,14 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 User → Load Balancer → Kubernetes Service → Pods → EKS Nodes
 
-![2048 Game deployment architecture on AWS EKS](screenshot\2048-Game-deployment-architecture-on-AWS-EKS.png)
+![Architecture](screenshots/architecture.png)
 
 ---
 
 ## 📜 Commands Used
 
 ```bash
-eksctl create cluster --name <cluster-name>
+eksctl create cluster --name 2048-demployment
 
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
