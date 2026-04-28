@@ -31,28 +31,28 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 ### 🎮 Application Running
 
-![Game Start](day-22/screenshots/2048-game-beginning.png)
-![Game Mid](screenshots/2048-game-inbetween.png)
-![Game End](screenshots/2048-game-end.png)
+![Game Start](screenshot/2048-game-beginning.png)
+![Game Mid](screenshot/2048-game-inbetween.png)
+![Game End](screenshot/2048-game-end.png)
 
 ---
 
 ### ☸️ Kubernetes Pods
 
-![Kubernetes Pods](screenshots/kubectl-get-pods.png)
+![Kubernetes Pods](screenshot/kubectl-get-pods.png)
 
 ---
 
 ### 🌐 Services / Ingress
 
-![Kubernetes Ingress](screenshots/kubectl-get-ingress.png)
-![Kubernetes Services](screenshots/kubectl-get-svc.png)
+![Kubernetes Ingress](screenshot/kubectl-get-ingress.png)
+![Kubernetes Services](screenshot/kubectl-get-svc.png)
 
 ---
 
 ### ☁️ AWS EKS Cluster
 
-![AWS EKS Cluster](screenshots/AWS-EKS.png)
+![AWS EKS Cluster](screenshot/AWS-EKS.png)
 
 ---
 
@@ -60,7 +60,7 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 User → Load Balancer → Kubernetes Service → Pods → EKS Nodes
 
-![Architecture](screenshots/architecture.png)
+![Architecture](screenshot/architecture.png)
 
 ---
 
