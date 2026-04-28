@@ -31,7 +31,7 @@ I implemented the deployment by creating an EKS cluster, deploying the applicati
 
 ### 🎮 Application Running
 
-![Game Start](screenshot\2048-game-biginning.png)
+![Game Start](screenshot/2048-game-biginning.png)
 ![Game Mid](screenshot/2048-game-inbetween.png)
 ![Game End](screenshot/2048-game-end.png)
 
